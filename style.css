@@ -108,4 +108,34 @@ body {
 }
 
 /* Features section */
+.features {
+  color: #1F2937;
+  text-align: center;
 
+  padding-top: 32px;
+  padding-bottom: 128px;
+}
+
+.features .content-narrow h2 {
+  font-size: 32px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 36px;
+}
+
+.features-images img {
+  width: 200px;
+  height: 200px;
+
+  box-shadow: 0px 3px 7px 2px #1f29372a;
+  border-radius: 5px;
+}
+
+/* Quote section */
