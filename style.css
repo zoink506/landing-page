@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
 }
 
 .content-wide {
@@ -139,3 +139,75 @@ body {
 }
 
 /* Quote section */
+.quote-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  
+  padding: 96px 0;
+}
+
+.quote-content {
+  text-align: left;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: right;
+  margin-right: 48px;
+  font-weight: bold;
+}
+
+/* Call to action section */
+.action .content-wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 96px 0;
+}
+
+.action-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 128px;
+
+  padding: 48px 0;
+  border-radius: 10px;
+}
+
+.left h4 {
+  font-size: 20px;
+}
+
+.left p {
+  font-size: 14px;
+  color: #E5E7EB;
+}
+
+.right button {
+  all: unset;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  padding: 4px 32px;
+  padding-bottom: 6px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.footer .content-wide {
+  text-align: center;
+  padding: 32px 0;
+}
